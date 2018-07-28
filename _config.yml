@@ -41,6 +41,8 @@ header_pages:
 disqus:
     shortname: alexshin
 
+google_analytics: UA-123055233-1
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

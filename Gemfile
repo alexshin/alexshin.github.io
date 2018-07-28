@@ -21,6 +21,7 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.9"
   gem "jekyll-seo-tag", "~> 2.4"
+  gem "emoji_for_jekyll", "~> 0.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -2,7 +2,9 @@
 layout: post
 title:  "Hello world!"
 date:   2018-07-20 13:01:30 +0300
-categories: blog tools
+categories: 
+    - blog 
+    - tools
 ---
 Today I have made up my mind having a personal blog to share of my thoughts and useful facts with the World. I'd like to start my blog from traditional _"Hello world!"_ =)
 

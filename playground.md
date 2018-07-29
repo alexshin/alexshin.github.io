@@ -10,5 +10,3 @@ This page purpose is for testing specific tags and functions before publish them
 ## Embedded video
 
 ### Youtube
-
-{% youtube iWowJBRMtpc %}

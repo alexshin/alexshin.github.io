@@ -33,6 +33,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - emoji_for_jekyll
+  - ./_plugins/video_embed.rb
+  - ./_plugins/sitemap_generator.rb
 show_excerpts: true
 rss: rss feed
 header_pages:

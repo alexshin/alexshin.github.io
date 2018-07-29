@@ -40,18 +40,21 @@ header_pages:
   - links.md
 
 disqus:
-    shortname: alexshin
+  shortname: alexshin
 
 google_analytics: UA-123055233-1
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# See detailed description at https://github.com/kinnetica/jekyll-plugins
+sitemap:
+  filename: "/sitemap.xml"
+  exclude:
+    - /atom.xml
+    - /feed.xml
+    - /feed/index.xml
+    - /assets/main.scss
+    - /playground.md
+    - /404.html
+  include_posts:
+    - /index.html
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
